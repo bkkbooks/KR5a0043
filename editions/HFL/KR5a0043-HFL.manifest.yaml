@@ -1,0 +1,39 @@
+canonical_identifier: bkk:krp/KR5a0043/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0043/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 元始天尊說十一曜大消災神咒經
+  date: '2015-08-28 23:35:18.502980'
+  source:
+    repository: kanripo
+    path: KR5a0043
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0043_000-HFL.yaml, hash: 'sha256:e0e6da0a4ac4ace0fc37fe31a5be13db98da0a91fc37ddb1034e3d1eb2105ba1'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0043_000-HFL.markers.yaml, hash: 'sha256:39f8e2723ccf827ce18d0f81f354de41adcaeea874839444662907576fd7159d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0043_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 821
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:31b9776131fe36d47d9f88782599c37cea03d2f57128a317b29683af48e872e7
